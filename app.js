@@ -65,7 +65,7 @@ function renderCards() {
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-      <div class="cover" style="background: ${color}">
+      <div class="cover" style="${b.image ? `background-image: url('${b.image}'); background-size: cover; background-position: center;` : `background: ${color}`}">
         <div class="cover-inner">
           <div class="cover-title">${b.title}</div>
           <div class="cover-author">${b.author}</div>
