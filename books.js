@@ -59,7 +59,7 @@ const books = [
     pages: 398,
     source: "iPusnas",
     genres: ["fiction"],
-    rating: 3,
+    rating: 4,
     spoiler: true,
     category: "fiction",
     twitterLink: "https://x.com/readbymoon/status/2043946525571858772?s=20",
