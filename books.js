@@ -14,7 +14,7 @@ const books = [
     spoiler: true,     // true atau false
     category: "nonfiction", // "fiction" atau "nonfiction"
     color: "#4A7FA5",  // warna cover (hex code)
-    twitterLink: "https://t.co/tRw0iSqQhZ"
+    twitterLink: "https://x.com/readbymoon/status/2058100914058371306?s=20"
   },
   {
     title: "Kesetiaan Mr X",
@@ -26,7 +26,7 @@ const books = [
     spoiler: true,
     category: "fiction",
     color: "#B85C38",
-    twitterLink: "https://t.co/OZgxVbBk6Z"
+    twitterLink: "https://x.com/readbymoon/status/2058095385479204921?s=20"
   },
   {
     title: "The Newcomer - Pembunuhan di Nihonbashi",
@@ -38,7 +38,7 @@ const books = [
     spoiler: true,
     category: "fiction",
     color: "#2C3E50",
-    twitterLink: "https://t.co/tBaFQsHde2"
+    twitterLink: "https://x.com/readbymoon/status/2058086584847876392?s=20"
   },
   {
     title: "Catatan Pembunuhan sang Novelis (Akui—Malice)",
@@ -50,7 +50,7 @@ const books = [
     spoiler: true,
     category: "fiction",
     color: "#7D5A50",
-    twitterLink: "https://t.co/i5jVGH3qWI"
+    twitterLink: "https://x.com/readbymoon/status/2047862194180939885?s=20"
   },
   {
     title: "Keajaiban Toko Kelontong Namiya",
@@ -62,6 +62,6 @@ const books = [
     spoiler: true,
     category: "fiction",
     color: "#1A3A4A",
-    twitterLink: "https://t.co/fJmtwVMnua"
+    twitterLink: "https://x.com/readbymoon/status/2043946525571858772?s=20"
   },
 ];
