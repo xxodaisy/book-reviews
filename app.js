@@ -100,5 +100,5 @@ document.querySelectorAll('.tab').forEach(tab => {
 document.getElementById('searchInput').addEventListener('input', renderCards);
 
 // ===== INIT =====
-renderPills();
+// renderPills();
 renderCards();
