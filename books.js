@@ -11,7 +11,7 @@ const books = [
     pages: 212,
     source: "iPusnas",
     genres: ["non-fiction", "psychology", "self-help"],
-    rating: 4,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    rating: 5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "nonfiction", // "fiction" atau "nonfiction"
     twitterLink: "https://x.com/readbymoon/status/2058100914058371306?s=20",
@@ -35,7 +35,7 @@ const books = [
     pages: 304,
     source: "iPusnas",
     genres: ["fiction", "criminal", "thriller", "mystery"],
-    rating: 4,
+    rating: 5,
     spoiler: true,
     category: "fiction",
     twitterLink: "https://x.com/readbymoon/status/2058086584847876392?s=20",
@@ -47,7 +47,7 @@ const books = [
     pages: 308,
     source: "iBalikpapan",
     genres: ["fiction", "mystery", "suspense", "police prosedural"],
-    rating: 3.5,
+    rating: 4.5,
     spoiler: true,
     category: "fiction",
     twitterLink: "https://x.com/readbymoon/status/2047862194180939885?s=20",
