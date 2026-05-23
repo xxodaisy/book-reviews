@@ -67,9 +67,9 @@ function renderCards() {
     card.innerHTML = `
       <div class="cover" style="${b.image ? `background-image: url('${b.image}'); background-size: cover; background-position: center;` : `background: ${color}`}">
         <div class="cover-inner">
-          <div class="cover-title">${b.title}</div>
-          <div class="cover-author">${b.author}</div>
-        </div>
+        //   <div class="cover-title">${b.title}</div>
+        //   <div class="cover-author">${b.author}</div>
+        // </div>
       </div>
       <div class="card-body">
         <div class="card-title">${b.title}</div>
