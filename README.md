@@ -43,7 +43,7 @@ Setelah disimpan dan di-push ke GitHub, Vercel otomatis update websitenya.
 ---
 
 ## Struktur file
-
+             
 ```
 book-reviews/
 ├── index.html   → struktur halaman
