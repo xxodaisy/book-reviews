@@ -15,7 +15,7 @@ const books = [
     spoiler: true,      // true atau false
     category: "nonfiction", // "fiction" atau "nonfiction"
     twitterLink: "https://x.com/readbymoon/status/2058100914058371306?s=20",
-    image: "https://pbs.twimg.com/media/HI_XsLtaEAERgai?format=jpg&name=medium"
+    image: "images/seorang-pria-yg-berduka.jpg"
   },
   {
     title: "Kesetiaan Mr X",
