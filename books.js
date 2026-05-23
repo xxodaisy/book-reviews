@@ -14,7 +14,8 @@ const books = [
     rating: 4,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "nonfiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://t.co/tRw0iSqQhZ"
+    twitterLink: "https://x.com/readbymoon/status/2058100914058371306?s=20",
+    image: "https://pbs.twimg.com/media/HI_XsLtaEAERgai?format=jpg&name=medium"
   },
   {
     title: "Kesetiaan Mr X",
@@ -25,7 +26,8 @@ const books = [
     rating: 5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://t.co/OZgxVbBk6Z"
+    twitterLink: "https://x.com/readbymoon/status/2058095385479204921?s=20",
+    image: "https://pbs.twimg.com/media/HI_SHdLaoAAePTk?format=png&name=small"
   },
   {
     title: "The Newcomer - Pembunuhan di Nihonbashi",
@@ -36,7 +38,8 @@ const books = [
     rating: 4,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://t.co/tBaFQsHde2"
+    twitterLink: "https://x.com/readbymoon/status/2058086584847876392?s=20",
+    image: "https://pbs.twimg.com/media/HI_H6MSaQAEn_oy?format=jpg&name=medium"
   },
   {
     title: "Catatan Pembunuhan sang Novelis (Akui—Malice)",
@@ -47,7 +50,8 @@ const books = [
     rating: 3.5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://t.co/i5jVGH3qWI"
+    twitterLink: "https://x.com/readbymoon/status/2047862194180939885?s=20",
+    image: "https://pbs.twimg.com/media/HGt3zw1a8AAYMZ4?format=jpg&name=medium"
   },
   {
     title: "Keajaiban Toko Kelontong Namiya",
@@ -58,6 +62,7 @@ const books = [
     rating: 3,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://t.co/fJmtwVMnua"
+    twitterLink: "https://x.com/readbymoon/status/2043946525571858772?s=20",
+    image: "https://pbs.twimg.com/media/HF2ABs2bYAADWud?format=jpg&name=medium"
   },
 ];
