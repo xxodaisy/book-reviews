@@ -76,7 +76,7 @@ function renderCards() {
         <div class="card-meta">${b.author} · ${b.pages} hal · ${b.source}</div>
         <div class="stars">${renderStars(b.rating)}</div>
         <div class="genre-tags">
-          ${b.genres.slice(0, 2).map(g => `<span class="gtag">${g}</span>`).join('')}
+          ${b.genres.slice(0, 4).map(g => `<span class="gtag">${g}</span>`).join('')}
         </div>
         ${b.spoiler ? '<span class="spoiler-badge">might contain spoilers ‼️</span>' : ''}
       </div>
