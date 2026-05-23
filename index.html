@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moon's Book Reviews</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="profile-row">
+      <div class="avatar">C</div>
+      <div class="profile-text">
+        <div class="site-title">Moon's Book Reviews</div>
+        <div class="site-bio">
+          Hi, my name is Ciaa! I'm an avid reader based in Indonesia who loves getting lost in fiction —
+          especially mystery and thriller — and occasionally picks up a good self-help book.
+          This is my little corner to keep track of everything I've read. Happy browsing! 🌙
+        </div>
+      </div>
+    </div>
+    <div class="tab-row">
+      <button class="tab active" data-tab="all">Semua</button>
+      <button class="tab" data-tab="fiction">Fiction</button>
+      <button class="tab" data-tab="nonfiction">Non-Fiction</button>
+    </div>
+  </header>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Cari judul atau penulis..." />
+    </div>
+    <div class="genre-pills" id="genrePills"></div>
+  </div>
+
+  <!-- COUNT -->
+  <div class="count-label" id="countLabel"></div>
+
+  <!-- GRID -->
+  <div class="grid" id="grid"></div>
+
+  <script src="books.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
