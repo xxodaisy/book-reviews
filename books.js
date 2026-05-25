@@ -71,7 +71,7 @@ const tbr = [
   {
     title: "Naoko",
     author: "Keigo Higashino",
-    genres: ["Crime, Fiction, Mystery, Psychology Drama"],
+    genres: ["Crime", "Fiction", "Mystery", "Psychology Drama"],
     image: "https://cdn.gramedia.com/uploads/product-metas/k9ok94n5oo.jpg"
   },
   {
