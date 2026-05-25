@@ -66,3 +66,11 @@ const books = [
     image: "https://pbs.twimg.com/media/HF2ABs2bYAADWud?format=jpg&name=medium"
   },
 ];
+
+const tbr = [
+  {
+    title: "Judul Buku",
+    author: "Nama Author"
+  },
+  // tambah buku lainnya...
+];
