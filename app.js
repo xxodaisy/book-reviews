@@ -98,7 +98,11 @@ document.querySelectorAll('.tab').forEach(tab => {
     activeTab = tab.dataset.tab;
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
-    renderCards();
+    if (activeTab === 'tbr') {  // ← ini tbr
+      renderTBR();
+    } else {
+      renderCards();
+    }
   });
 });
 
