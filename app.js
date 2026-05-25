@@ -93,7 +93,6 @@ function renderCards() {
 }
 
 // ===== TBR =====
-// ===== TBR =====
 function renderTBR() {
   document.getElementById('countLabel').textContent = tbr.length + ' buku';
   const grid = document.getElementById('grid');
