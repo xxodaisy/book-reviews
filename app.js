@@ -92,6 +92,37 @@ function renderCards() {
   });
 }
 
+// ===== TBR =====
+// ===== TBR =====
+function renderTBR() {
+  document.getElementById('countLabel').textContent = tbr.length + ' buku';
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  tbr.forEach(b => {
+    const color = generateColor(b.title);
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="cover" style="${b.image ? `background-image: url('${b.image}'); background-size: cover; background-position: center;` : `background: ${color}`}">
+        <div class="cover-inner">
+          ${!b.image ? `
+            <div class="cover-title">${b.title}</div>
+            <div class="cover-author">${b.author}</div>
+          ` : ''}
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-title">${b.title}</div>
+        <div class="card-meta">${b.author}</div>
+        <div class="genre-tags">
+          ${b.genres.map(g => `<span class="gtag">${g}</span>`).join('')}
+        </div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
 // ===== TABS =====
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
