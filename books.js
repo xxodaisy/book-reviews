@@ -71,17 +71,20 @@ const tbr = [
   {
     title: "Judul Buku",
     author: "Nama Author",
-    image: "images.jpg"
+    genres: "fiction",
+    image: ""
   },
   {
     title: "Judul Buku",
     author: "Nama Author",
-    image: "images.jpg"
+    genres: "fiction",
+    image: ""
   },
   {
     title: "Judul Buku",
     author: "Nama Author",
-    image: "images.jpg"
+    genres: "fiction",
+    image: ""
   },
   // tambah buku lainnya...
 ];
