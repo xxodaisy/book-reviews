@@ -70,7 +70,18 @@ const books = [
 const tbr = [
   {
     title: "Judul Buku",
-    author: "Nama Author"
+    author: "Nama Author",
+    image: "images.jpg"
+  },
+  {
+    title: "Judul Buku",
+    author: "Nama Author",
+    image: "images.jpg"
+  },
+  {
+    title: "Judul Buku",
+    author: "Nama Author",
+    image: "images.jpg"
   },
   // tambah buku lainnya...
 ];
