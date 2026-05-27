@@ -33,11 +33,7 @@ let activeTab = 'all';
 
 // ===== STARS =====
 function renderStars(n) {
-  const full = Math.floor(n);
-  const half = n % 1 >= 0.5;
-  let s = '★'.repeat(full);
-  if (half) s += '½';
-  return s;
+  return n + '/5 ⭐';
 }
 
 // ===== CARDS =====
