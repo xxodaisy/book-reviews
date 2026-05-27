@@ -5,6 +5,19 @@
 // =============================================
 
 const books = [
+    {
+    title: "After All This Time",
+    author: "Ollyjayzee",
+    pages: 412,
+    source: "iBalikpapan",
+    genres: ["fiction", "romance", "metropop"],
+    rating: 5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    spoiler: true,      // true atau false
+    category: "fiction", // "fiction" atau "nonfiction"
+    twitterLink: "https://x.com/readbymoon/status/2059645192073097338?s=20",
+    image: "https://pbs.twimg.com/media/HJVSC92acAAuZkW?format=jpg&name=medium"
+  },
+  
   {
     title: "Seorang Pria yang Melalui Duka dengan Mencuci Piring",
     author: "dr. Andreas Kurniawan, Sp.KJ",
