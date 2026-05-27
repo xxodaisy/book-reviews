@@ -6,6 +6,32 @@
 
 const books = [
     {
+    title: "Convenience Store Woman (Gadis Minimarket)",
+    author: "Sayaka Murata",
+    pages: 164,
+    source: "iPusnas",
+    genres: ["fiction", "slice of life", "social critism/satire", "psychology"],
+    rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    spoiler: true,      // true atau false
+    category: "fiction", // "fiction" atau "nonfiction"
+    twitterLink: "https://x.com/readbymoon/status/2059673952876909014?s=20",
+    image: "https://pbs.twimg.com/media/HJVs0mLbEAUvOnK?format=jpg&name=medium"
+  },
+    
+    {
+    title: "Represi",
+    author: "Fakhrisina Amalia",
+    pages: 257,
+    source: "EpusImigrasi",
+    genres: ["fiction", "drama"],
+    rating: 4.5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    spoiler: true,      // true atau false
+    category: "fiction", // "fiction" atau "nonfiction"
+    twitterLink: "https://x.com/readbymoon/status/2059664764524192252?s=20",
+    image: "https://pbs.twimg.com/media/HJVXEHUbkAAo9iJ?format=jpg&name=medium"
+  },
+    
+    {
     title: "After All This Time",
     author: "Ollyjayzee",
     pages: 412,
