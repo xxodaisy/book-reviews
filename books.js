@@ -6,6 +6,19 @@
 
 const books = [
     {
+    title: "Harga Teman — Design, Resign, Redesign",
+    author: "Debora Danisa",
+    pages: 404,
+    source: "iPusnas",
+    genres: ["metropop"],
+    rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    spoiler: true,      // true atau false
+    category: "fiction", // "fiction" atau "nonfiction"
+    twitterLink: "https://x.com/readbymoon/status/2059680417670975811?s=20",
+    image: "https://pbs.twimg.com/media/HJVzrI9bQAAt7x_?format=jpg&name=medium"
+  },
+    
+    {
     title: "Convenience Store Woman (Gadis Minimarket)",
     author: "Sayaka Murata",
     pages: 164,
