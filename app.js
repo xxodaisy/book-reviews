@@ -33,7 +33,7 @@ let activeTab = 'all';
 
 // ===== STARS =====
 function renderStars(n) {
-  return n + '/5 ⭐';
+  return n + '/5⭐';
 }
 
 // ===== CARDS =====
