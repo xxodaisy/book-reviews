@@ -5,6 +5,18 @@
 // =============================================
 
 const books = [
+  {
+    title: "The Case We Met",
+    author: "Flazia",
+    pages: 444,
+    source: "iPusnas",
+    genres: ["metropop, romance, fiction"],
+    rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
+    spoiler: true,      // true atau false
+    category: "fiction", // "fiction" atau "nonfiction"
+    twitterLink: "https://x.com/readbymoon/status/2063459644442570993?s=20",
+    image: "https://pbs.twimg.com/media/HKLeIZfaMAAOqHV?format=png&name=small"
+  },
     {
     title: "Harga Teman — Design, Resign, Redesign",
     author: "Debora Danisa",
