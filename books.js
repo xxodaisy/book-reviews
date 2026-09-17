@@ -102,7 +102,7 @@ const books = [
     rating: 5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://x.com/readbymoon/status/2058086584847876392?s=20",
+    Link: "https://x.com/readbymoon/status/2058086584847876392?s=20",
     image: "https://pbs.twimg.com/media/HI_H6MSaQAEn_oy?format=jpg&name=medium"
   },
   {
@@ -126,7 +126,7 @@ const books = [
     rating: 4.5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://x.com/readbymoon/status/2043946525571858772?s=20",
+    Link: "https://x.com/readbymoon/status/2043946525571858772?s=20",
     image: "https://pbs.twimg.com/media/HF2ABs2bYAADWud?format=jpg&name=medium"
   },
 ];
