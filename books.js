@@ -126,7 +126,8 @@ const books = [
     rating: 4.5,
     spoiler: true,
     category: "fiction",
-    Link: "https://x.com/readbymoon/status/2043946525571858772?s=20",
+    // Link: "https://x.com/readbymoon/status/2043946525571858772?s=20",
+    Link: "https://www.instagram.com/p/DdHEzP0IDG7/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
     image: "https://pbs.twimg.com/media/HF2ABs2bYAADWud?format=jpg&name=medium"
   },
 ];
