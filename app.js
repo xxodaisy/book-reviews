@@ -90,10 +90,10 @@ function renderCards() {
 
 // ===== Wishlist =====
 function renderWishlist() {
-  document.getElementById('countLabel').textContent = Wishlist.length + ' buku';
+  document.getElementById('countLabel').textContent = wishlist.length + ' buku';
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
-  Wishlist.forEach(b => {
+  wishlist.forEach(b => {
     const color = generateColor(b.title);
     const card = document.createElement('div');
     card.className = 'card';
@@ -125,7 +125,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     if (activeTab === 'wishlist') {  // ← ini wishlist
-      renderWishlist();
+      renderwishlist();
     } else {
       renderCards();
     }
