@@ -80,20 +80,20 @@ function renderCards() {
       </div>
     `;
 
-    if (b.twitterLink) {
-      card.addEventListener('click', () => window.open(b.twitterLink, '_blank'));
+    if (b.Link) {
+      card.addEventListener('click', () => window.open(b.Link, '_blank'));
     }
 
     grid.appendChild(card);
   });
 }
 
-// ===== TBR =====
-function renderTBR() {
-  document.getElementById('countLabel').textContent = tbr.length + ' buku';
+// ===== Wishlist =====
+function renderWishlist() {
+  document.getElementById('countLabel').textContent = Wishlist.length + ' buku';
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
-  tbr.forEach(b => {
+  Wishlist.forEach(b => {
     const color = generateColor(b.title);
     const card = document.createElement('div');
     card.className = 'card';
@@ -125,7 +125,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     if (activeTab === 'tbr') {  // ← ini tbr
-      renderTBR();
+      renderWishlist();
     } else {
       renderCards();
     }
