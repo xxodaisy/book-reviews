@@ -14,7 +14,7 @@ const books = [
     rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "fiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2063459644442570993?s=20",
+    Link: "https://x.com/readbymoon/status/2063459644442570993?s=20",
     image: "https://pbs.twimg.com/media/HKLeIZfaMAAOqHV?format=png&name=small"
   },
     {
@@ -26,7 +26,7 @@ const books = [
     rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "fiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2059680417670975811?s=20",
+    Link: "https://x.com/readbymoon/status/2059680417670975811?s=20",
     image: "https://pbs.twimg.com/media/HJVzrI9bQAAt7x_?format=jpg&name=medium"
   },
     
@@ -39,7 +39,7 @@ const books = [
     rating: 4.8,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "fiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2059673952876909014?s=20",
+    Link: "https://x.com/readbymoon/status/2059673952876909014?s=20",
     image: "https://pbs.twimg.com/media/HJVs0mLbEAUvOnK?format=jpg&name=medium"
   },
     
@@ -52,7 +52,7 @@ const books = [
     rating: 4.5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "fiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2059664764524192252?s=20",
+    Link: "https://x.com/readbymoon/status/2059664764524192252?s=20",
     image: "https://pbs.twimg.com/media/HJVXEHUbkAAo9iJ?format=jpg&name=medium"
   },
     
@@ -65,7 +65,7 @@ const books = [
     rating: 5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "fiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2059645192073097338?s=20",
+    Link: "https://x.com/readbymoon/status/2059645192073097338?s=20",
     image: "https://pbs.twimg.com/media/HJVSC92acAAuZkW?format=jpg&name=medium"
   },
   
@@ -78,7 +78,7 @@ const books = [
     rating: 5,          // angka 1-5, boleh pakai 0.5 (contoh: 3.5)
     spoiler: true,      // true atau false
     category: "nonfiction", // "fiction" atau "nonfiction"
-    twitterLink: "https://x.com/readbymoon/status/2058100914058371306?s=20",
+    Link: "https://x.com/readbymoon/status/2058100914058371306?s=20",
     image: "https://pbs.twimg.com/media/HI_XsLtaEAERgai?format=jpg&name=medium"
   },
   {
@@ -90,7 +90,7 @@ const books = [
     rating: 5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://x.com/readbymoon/status/2058095385479204921?s=20",
+    Link: "https://x.com/readbymoon/status/2058095385479204921?s=20",
     image: "https://pbs.twimg.com/media/HI_SHdLaoAAePTk?format=png&name=small"
   },
   {
@@ -114,7 +114,7 @@ const books = [
     rating: 4.5,
     spoiler: true,
     category: "fiction",
-    twitterLink: "https://x.com/readbymoon/status/2047862194180939885?s=20",
+    Link: "https://x.com/readbymoon/status/2047862194180939885?s=20",
     image: "https://pbs.twimg.com/media/HGt3zw1a8AAYMZ4?format=jpg&name=medium"
   },
   {
@@ -131,7 +131,7 @@ const books = [
   },
 ];
 
-const tbr = [
+const wishlist = [
   {
     title: "Naoko",
     author: "Keigo Higashino",
