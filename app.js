@@ -125,7 +125,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     if (activeTab === 'wishlist') {  // ← ini wishlist
-      renderwishlist();
+      renderWishlist();
     } else {
       renderCards();
     }
