@@ -124,7 +124,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     activeTab = tab.dataset.tab;
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
-    if (activeTab === 'tbr') {  // ← ini tbr
+    if (activeTab === 'wishlist') {  // ← ini wishlist
       renderWishlist();
     } else {
       renderCards();
